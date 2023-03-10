@@ -1,0 +1,120 @@
+// JavaScript source code
+function get_query() {
+    const params = new Proxy(new URLSearchParams(window.location.search), {
+        get: (searchParams, prop) => searchParams.get(prop),
+    });
+    // Get the value of "gatha" in eg "https://example.com/?some_key=some_value"
+    //let value = params.gatha; // "some_value"
+    return params.gatha; // "gatha"
+
+    /*var url = window.location.href;
+    alert('recieved ' + url);
+    var qs = url.substring(url.indexOf('?') + 1).split('&');
+    alert('qs' + qs)
+    for (var i = 0, result = {}; i < qs.length; i++) {
+        qs[i] = qs[i].split('=');
+        result[qs[i][0]] = decodeURIComponent(qs[i][1]);
+    }
+    alert('result is ' + result)    
+    return result;
+    */
+}
+var reload = function (section) {
+    var url = window.location.origin +'/tatvarthSutra.html'+ section;
+    //alert('I am clicked 1' + url);
+    $(location).prop('href', url)
+    //window.location.href = url;
+    //window.location.reload();
+}
+/*var reload = function (section) {
+    var url = window.location.origin + section;
+    alert('I am clicked 1' + url);
+    window.location.href = url;
+    window.location.reload();
+}*/
+var loadContent = function (gatha, section) {
+    //alert('I am clicked 2' + gatha + ' ' + section);
+    $(section).load(gatha);
+}
+
+$(document).ready(function () {
+    var result = get_query();
+    //console.log(result);
+    //$(section).load(gatha);
+    //alert(result);
+    loadContent('granth1/' + result + '.html', '#' + result);
+
+    //$("#c1Submenu ul").append('<li><a href="#" onclick = "reload(\'#01-01\');">1 - मोक्ष का उपाय</a></li>');
+    //$("#c1Submenu ul").append('<li><a href="#" onclick = "reload(\'#01-02\');">2 - मोक्ष का उपाय</a></li>');
+
+    /*mySel = $('#c1Submenu')
+    $lstgrp = $('<li>< a href = "#" onclick = "reload(\'#01-01\');" > 1 - मोक्ष का उपाय</a ></li >');
+    $lstgrp.append = $('<li>< a href = "#" onclick = "reload(\'#01-02\');" > 1 - मोक्ष का उपाय</a ></li >');
+    $lstgrp.append = $('<li>< a href = "#" onclick = "reload(\'#01-03\');" > 1 - मोक्ष का उपाय</a ></li >');
+    mySel.append($lstgrp);
+    */
+});
+
+
+
+
+
+    <tr>
+        <td align="center">
+            <div class=gatha>अज्झयणमेव झाणं ।</div>
+            <div class="title">अध्ययन ही ध्यान है।</div><br />
+            <div class=gatha>
+                ﻿अल्पाक्षरमसंदिग्धं सारवद्‌ गूढनिर्णयम्‌ ।<br /> निर्दोष हंतुमत्‌ तथ्यं सूत्रमित्युच्यते बुधे: ॥
+            </div><br />
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <div class=paragraph>
+                <b><font color=darkmagenta>अर्थ : </font></b>गणधरों ने सूत्र उसे कहा है जो अल्पाक्षर हो, असंदिग्ध हो, सारवद्‌ हो, गूढ़निर्णय हो, निर्दोष हो, हेतुमत्‌ हो और तथ्यपूर्ण हो।
+            </div>
+            <div class=paragraphE><b><font color=darkmagenta>Meaning : </font></b>﻿ Right faith (samyagdarśana), right knowledge (samyagjñāna), and right conduct (samyakcārita), together, constitute the path to liberation – mokÈamārga.  </div>
+            <br />
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p class="paragraph">
+                सूत्र का यह लक्षण बहुत ही महत्त्वपूर्ण है और आचार्य उमास्वामी प्रणीत "तत्त्वार्थसूत्र" पर पूरी तरह खरा उतरता है।
+                <br />
+                <br />
+                सूत्र के उक्त 7 विशेषणों को भी हमें गंभीरतापूर्वक समझना चाहिये। टीकाकार आचार्यों ने इनका बहूत विस्तारपूर्वक विवेचन किया है। जैसे कि 'निर्दोष' विशेषण में समझाया है कि सूत्र बत्तीस दोषों से रहित होना चाहिए और फिर उन बत्तीस दोषों को पृथक्‌-पृथक्‌ सोदाहरण स्पष्ट भी किया है, जिसे यहाँ हम विस्तारभय से नहीं लिखते हें, परन्तु हमें उन सबको भलीभाँति समझना चाहिए, तभी “तत्त्वार्थसृत्र ' का मर्मोद्घाटन होगा।
+                <br />
+                <br />
+                “तत्त्वार्थसूत्र” की महिमा वचन-अगोचर है। लोग कहते हैं कि उसमें “गागर में सागर' भरा है, पर मैं कहता हूँ कि उसमें तो 'सरसों के दाने में सागर' समाया है।
+                <br />
+                <br />
+                “तत्त्वार्थसूत्र' इतना महान्‌ ओर प्रामाणिक शास्त्र है कि प्राचीनकाल में तो 'शास्त्र' का अर्थ ही 'मोक्षशास्त्र' लगाया जाता था। इसी के आधार पर अनेकानेक शास्त्रों की रचना हुई है। 'अज्झयणमेव झाणं' को चरितार्थ करता हुआ, कोई भी व्यक्ति एक इसी ग्रन्थ के अध्ययन से सम्पूर्ण श्रुतज्ञान को सरलता से प्राप्त कर सकता है।
+                <br />
+                <br />
+                “तत्त्वार्थसूत्र” की विषयवस्तु भी अद्भुत है, इसमें प्रयोजनभूत तत्त्वों का सर्व विषय आ गया है। यथा -
+                <br />
+                <br />
+            </p>
+            <div class=gatha>
+                पढमचउक्के पढम॑, पंचमए जाण पोग्गलं तच्च ।<br />
+                छट्ठे -सत्तम आसव, अट्ठमए बंध णादव्वो ॥<br />
+                णवमे संवर-णिज्जर , दहमे मोक्‍्खं वियाणाहि ।<br />
+                इह सत्ततच्च भणिदं, जिणवरपणीदं दहसुत्तं ॥<br />
+            </div><br />
+            <div class=paragraph>
+                <b><font color=darkmagenta>अर्थ : </font></b>अर्थ - प्रथम के चार अध्यायों में प्रथम अर्थात्‌ जीव-तत्त्व का वर्णन है, पाँचवें अध्याय में अजीव-तत्त्व का वर्णन है, छठे-सातवें अध्यायों में आस्रव-तत्त्व का वर्णन है, आठवें अध्याय में बंध-तत्त्व का वर्णन है, नौवें अध्याय में संवर-तत्त्व तथा निर्जरा-तत्त्व का वर्णन है और दसवें अध्याय में मोक्ष-तत्त्व का वर्णन है। इस प्रकार दस अध्यायों में सूत्रों द्वारा जिनवर-प्रणीत सात प्रयोजनभूत तत्त्व कहे हैं।
+            </div>
+            <br />
+            <p class="paragraph">
+                धर्मानुरागी श्री विजय कुमार जी जैन, देहरादून, ने “तत्त्वार्थसृत्र' की अंग्रेजी व्याख्या प्रकाशित करा कर विश्व भर के लोगों का महान्‌ उपकार किया है। उन्हें मेरा बहुत-बहुत मंगल आशीर्वाद है।
+                <br />
+                <br />
+                अक्टूबर 2018<br />
+                आचार्य विद्यानन्द मुनि<br />
+                कुन्दकुन्द भारती, नई दिल्‍ली<br />
+
+            </p>
+        </td>
+    </tr>
+

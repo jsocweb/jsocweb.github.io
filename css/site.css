@@ -1,0 +1,200 @@
+body {
+    background-color: #e7e9eb;
+}
+
+div.teekakaar {
+    font-size: 2vw;
+    font-weight: bold;
+    text-align: center;
+    color: darkGreen;
+}
+
+div.title {
+    font-size: 1.25vw;
+    font-weight: bold;
+    text-align: center;
+    color: #e06c20;
+}
+
+div.chapter {
+    font-size: 4vw;
+    color: #ff4000;
+    font-weight: bold;
+    text-align: center;
+}
+
+div.gatha {
+    font-size: 2vw;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0 0 2px #FF0000;
+}
+
+div.gathas {
+    font-size: 2vw;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+div.arth {
+    font-size: 1.5vw;
+    color: navy;
+    width: 90%;
+    text-align: justify;
+    margin: 0 auto;
+}
+
+div.paragraph {
+    font-size: 1.5vw;
+    color: navy;
+    width: 100%;
+    text-align: justify;
+    margin: 0 auto;
+    text-indent: 10px;
+    text-align: left;
+}
+
+div.paragraphE {
+    font-size: 1.5vw;
+    color: darkGreen;
+    width: 100%;
+    text-align: justify;
+    margin: 0 auto;
+    text-indent: 10px;
+    text-align: left;
+}
+
+div.paragraphHeader {
+    font-size: 1vw;
+    font-weight:bold;
+    color: #1d1919;
+    text-align: justify;
+    margin: 0 auto;
+    text-align: center;
+}
+
+p.paragraph {
+    font-size: 1.25vw;
+    color: black;
+    width: 100%;
+    text-align: justify;
+    margin: 0 auto;
+    text-indent: 10px;
+    text-align: left;
+}
+
+p.paragraphE {
+    font-size: 1.25vw;
+    color: black;
+    width: 100%;
+    text-align: justify;
+    margin: 0 auto;
+    text-indent: 10px;
+    text-align: left;
+}
+
+a.btnlinks {
+    background-color: #1d1919;
+    color: white;
+    float: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 8px 8px;
+    transition: 0.3s;
+}
+    a.btnlinks:hover {
+        background-color: #595959;
+        color: white;
+    }
+
+a.btnheaderlinks {
+    background-color: #f48225;
+    color: white;
+    float: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 8px 8px;
+    transition: 0.3s;
+}
+
+/* Style the tab - Sachin*/
+.tab {
+    overflow: hidden;
+    align-content: center border: 1px solid #ccc;
+    background-color: white; /*#f1f1f1*/
+    text-decoration-style: solid;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 12px 12px;
+    transition: 0.3s;
+    font-weight: bold;
+    color: black;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #e06c20;
+    color: white;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #e06c20;
+    color: white;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.tabcontent {
+    animation: fadeEffect 1s; /* Fading effect takes 1 second */
+}
+
+
+table {
+    border: 0px solid black;
+    width:100%;
+}
+
+table td {
+    border: 0px solid black; /* Style just to show the table cell boundaries */
+}
+
+table.no-spacing {
+    border-spacing: 0; /* Removes the cell spacing via CSS */
+    border-collapse: collapse; /* Optional - if you don't want to have double border where cells touch */
+}
+
+hr {
+    height:2px;
+    border-width:0;
+    color:gray;
+    background-color:gray;
+    width:75%;
+}
+/* Go from zero to full opacity */
+@keyframes fadeEffect {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

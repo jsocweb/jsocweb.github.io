@@ -1,49 +1,53 @@
 body {
+    font-family: "Poppins", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.8;
+    font-weight: normal;
+    background: #fafafa;
     background-color: #e7e9eb;
+    color: gray;
 }
-
-div.teekakaar {
+div.chapter {
     font-size: 2vw;
+    color:black;
     font-weight: bold;
     text-align: center;
-    color: darkGreen;
+    padding-top: 5px;
 }
-
 div.title {
     font-size: 1.25vw;
     font-weight: bold;
     text-align: center;
     color: #e06c20;
+    padding-top:5px;
 }
-
-div.chapter {
-    font-size: 4vw;
-    color: #ff4000;
-    font-weight: bold;
-    text-align: center;
-}
-
 div.gatha {
     font-size: 2vw;
     color: black;
     font-weight: bold;
     text-align: center;
     text-shadow: 0 0 2px #FF0000;
+    padding: 5px,0px,5px,0px;
 }
-
-div.gathas {
-    font-size: 2vw;
-    color: black;
-    font-weight: bold;
-    text-align: center;
-}
-
 div.arth {
     font-size: 1.5vw;
     color: navy;
-    width: 90%;
+    width: 100%;
     text-align: justify;
     margin: 0 auto;
+    text-indent: 10px;
+    text-align: left;
+    padding-top: 5px;
+}
+div.meaning {
+    font-size: 1.5vw;
+    color: darkGreen;
+    width: 100%;
+    text-align: justify;
+    margin: 0 auto;
+    text-indent: 10px;
+    text-align: left;
+    padding-top: 5px;
 }
 
 div.paragraph {
@@ -54,6 +58,7 @@ div.paragraph {
     margin: 0 auto;
     text-indent: 10px;
     text-align: left;
+    padding-top: 5px;
 }
 
 div.paragraphE {
@@ -64,17 +69,23 @@ div.paragraphE {
     margin: 0 auto;
     text-indent: 10px;
     text-align: left;
+    padding-top: 5px;
 }
 
-div.paragraphHeader {
+div.pHeader {
     font-size: 1vw;
-    font-weight:bold;
+    font-weight: bold;
     color: #1d1919;
     text-align: justify;
     margin: 0 auto;
     text-align: center;
+    padding:5px,0px,5px,0px;
 }
 
+div.ivideo {
+    width: 560px;
+    height: 315px;
+}
 p.paragraph {
     font-size: 1.25vw;
     color: black;
@@ -124,7 +135,8 @@ a.btnheaderlinks {
 /* Style the tab - Sachin*/
 .tab {
     overflow: hidden;
-    align-content: center border: 1px solid #ccc;
+    align-content: center;
+    border: 1px solid #ccc;
     background-color: white; /*#f1f1f1*/
     text-decoration-style: solid;
 }
@@ -188,6 +200,56 @@ hr {
     background-color:gray;
     width:75%;
 }
+
+
+/*CSS for mobile phones*/
+@media only screen and (max-width: 768px) {
+    body {
+        font-family: "Poppins", Arial, sans-serif;
+        font-size: 10px;
+        line-height: 1.5;
+        font-weight: normal;
+    }
+    audio {
+        width: 200px;
+        height: 30px;
+        padding:5px,0px,5px,0px;
+    }
+    div.title {
+        font-size: 3vw;
+    }
+    div.gatha {
+        font-size: 4vw;
+    }
+    div.arth {
+        font-size: 4vw;
+    }
+    div.meaning {
+        font-size: 4vw;
+    }
+    div.paragraph {
+        font-size: 3.5vw;
+    }
+    div.paragraphE {
+        font-size: 3.5vw;
+    }
+    p.paragraph {
+        font-size: 3.5vw;
+    }
+    p.paragraphE {
+        font-size: 3.5vw;
+    }
+    div.pHeader {
+        font-size: 3.5vw;
+    }
+    div.chapter {
+        font-size: 4vw;
+    }
+}
+
+
+
+
 /* Go from zero to full opacity */
 @keyframes fadeEffect {
     from {

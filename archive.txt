@@ -70,10 +70,10 @@ $(document).ready(function () {
     </tr>
     <tr>
         <td>
-            <div class=paragraph>
+            <div class=arth>
                 <b><font color=darkmagenta>अर्थ : </font></b>गणधरों ने सूत्र उसे कहा है जो अल्पाक्षर हो, असंदिग्ध हो, सारवद्‌ हो, गूढ़निर्णय हो, निर्दोष हो, हेतुमत्‌ हो और तथ्यपूर्ण हो।
             </div>
-            <div class=paragraphE><b><font color=darkmagenta>Meaning : </font></b>﻿ Right faith (samyagdarśana), right knowledge (samyagjñāna), and right conduct (samyakcārita), together, constitute the path to liberation – mokÈamārga.  </div>
+            <div class=meaning><b><font color=darkmagenta>Meaning : </font></b>﻿ Right faith (samyagdarśana), right knowledge (samyagjñāna), and right conduct (samyakcārita), together, constitute the path to liberation – mokÈamārga.  </div>
             <br />
         </td>
     </tr>
@@ -102,7 +102,7 @@ $(document).ready(function () {
                 णवमे संवर-णिज्जर , दहमे मोक्‍्खं वियाणाहि ।<br />
                 इह सत्ततच्च भणिदं, जिणवरपणीदं दहसुत्तं ॥<br />
             </div><br />
-            <div class=paragraph>
+            <div class=arth>
                 <b><font color=darkmagenta>अर्थ : </font></b>अर्थ - प्रथम के चार अध्यायों में प्रथम अर्थात्‌ जीव-तत्त्व का वर्णन है, पाँचवें अध्याय में अजीव-तत्त्व का वर्णन है, छठे-सातवें अध्यायों में आस्रव-तत्त्व का वर्णन है, आठवें अध्याय में बंध-तत्त्व का वर्णन है, नौवें अध्याय में संवर-तत्त्व तथा निर्जरा-तत्त्व का वर्णन है और दसवें अध्याय में मोक्ष-तत्त्व का वर्णन है। इस प्रकार दस अध्यायों में सूत्रों द्वारा जिनवर-प्रणीत सात प्रयोजनभूत तत्त्व कहे हैं।
             </div>
             <br />

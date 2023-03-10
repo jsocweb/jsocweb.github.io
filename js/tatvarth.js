@@ -15,7 +15,7 @@ $(document).ready(function () {
     /* Add menu items */
 
     /*Chapter 1*/
-    $('#ch1Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=1-1\');"> 1.1 - मोक्ष की प्राप्ति का उपाय </a></li>')
+    $('#ch1Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=1-1\');"> 1.1 - मोक्ष प्राप्ति का उपाय </a></li>')
     $('#ch1Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=1-2\');"> 1.2 - ﻿सम्यग्दर्शन का लक्षण </a></li>')
     $('#ch1Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=1-3\');"> 1.3 - सम्यग्दर्शन के भेद </a></li>')
     $('#ch1Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=1-4\');"> 1.4 - सात तत्त्व </a></li>')

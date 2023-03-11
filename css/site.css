@@ -200,26 +200,31 @@ hr {
     background-color:gray;
     width:75%;
 }
-
+img.imgtatvarth {
+    width:150px;
+    height:220px;
+}
 
 /*CSS for mobile phones*/
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 800px) {
     body {
         font-family: "Poppins", Arial, sans-serif;
-        font-size: 10px;
+        font-size: 12px;
         line-height: 1.5;
         font-weight: normal;
     }
     audio {
         width: 200px;
         height: 30px;
-        padding:5px,0px,5px,0px;
+        padding:10px,0px,5px,0px;
     }
     div.title {
         font-size: 3vw;
     }
     div.gatha {
-        font-size: 4vw;
+        font-size: 5vw;
+        padding-top:5px;
+        padding: 5px,0px,5px,0px;
     }
     div.arth {
         font-size: 4vw;
@@ -244,6 +249,10 @@ hr {
     }
     div.chapter {
         font-size: 4vw;
+    }
+    img.imgtatvarth {
+        width: 100px;
+        height: 150px;
     }
 }
 

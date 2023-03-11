@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\css",
+    "\\js",
+    "\\tatvarth"
   ],
-  "SelectedNode": "\\tatvarth.html",
+  "SelectedNode": "\\tatvarth\\1-1.html",
   "PreviewInSolutionExplorer": false
 }

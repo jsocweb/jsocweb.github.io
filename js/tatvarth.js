@@ -1,19 +1,6 @@
 ﻿// JavaScript source code
 $(document).ready(function () {
-    /* Add divs for each sutra */
-    $('#gContent').append('<div id="coming"></div>')
-    $('#gContent').append('<div id="credits"></div>')
-    $('#gContent').append('<div id="home"></div>')
-    $('#gContent').append('<div id="mangal"></div>')
-
-    for (var i = 1; i <=33; i++)
-    {
-        $('#gContent').append('<div id="1-' + i + '"></div>')
-        //alert('<div id="1-' + i + '"></div>');
-    }
-
     /* Add menu items */
-
     /*Chapter 1*/
     $('#ch1Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=1-1\');"> 1.1 - मोक्ष प्राप्ति का उपाय </a></li>')
     $('#ch1Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=1-2\');"> 1.2 - ﻿सम्यग्दर्शन का लक्षण </a></li>')
@@ -59,12 +46,43 @@ $(document).ready(function () {
     /*Chapter 9*/
     /*Chapter 10*/
 
-
-
+    /* Add constant data divs */
+    $('#gContent').append('<div id="coming"></div>')
+    $('#gContent').append('<div id="credits"></div>')
+    $('#gContent').append('<div id="home"></div>')
+    $('#gContent').append('<div id="mangal"></div>')
 
     var result = get_query();
-    loadContent('tatvarth/' + result + '.html', '#' + result);
 
+    /* Add dynamic data divs per requested sutra*/
+    $('#gContent').append('<div id="' + result + '"></div>')
+
+    switch (result) {
+        case "home":
+        case "mangal":
+        case "coming":
+        case "credits":
+            //alert("Here at mangal home");
+            loadContent('tatvarth/' + result + '.html', '#' + result);
+            break;
+        default:
+            //alert("Here at sutra" + result);
+            loadContent('tatvarth/content.html', '#' + result);
+
+            $.getJSON('tatvarth/data/' + result + '.json', function (dt) {
+                $('#chapter').html(dt.chapter);
+                $('#title').html(dt.title);
+                $('#sutra').html(dt.sutra);
+                $('#audiosrc').html('<audio controls controlsList="nodownload"><source src="tatvarth/audio/' + dt.audiosrc +'" type="audio/mpeg"></audio><br />उच्चारण - आर्यिका 105 पूर्णमती माता जी के मधुर स्वर में।');
+                $('#arth').html('<b><font color=darkmagenta>अर्थ : </font></b>'+ dt.arth);
+                $('#meaning').html('<b><font color=darkmagenta>Meaning : </font></b>'+dt.meaning);
+                $('#vishesharth').html('<p class=\"paragraph\">' + dt.vishesharth +'</p>');
+                $('#explanation').html('<p class=\"paragraphE\">' + dt.explanation +'</p>');
+                $.each(dt.vidsrc, function (index, value) {
+                    $('#vidsrc').append(value);
+                });
+            });
+        }
 });
 
 

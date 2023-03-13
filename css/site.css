@@ -8,7 +8,7 @@ body {
     color: gray;
 }
 div.chapter {
-    font-size: 2vw;
+    font-size: 1.25vw;
     color: black;
     font-weight: bold;
     text-align: center;
@@ -35,7 +35,7 @@ div.arth {
     width: 100%;
     text-align: justify;
     margin: 0 auto;
-    text-indent: 10px;
+    text-indent: 0px;
     text-align: left;
     padding-top: 5px;
 }
@@ -45,7 +45,7 @@ div.meaning {
     width: 100%;
     text-align: justify;
     margin: 0 auto;
-    text-indent: 10px;
+    text-indent: 0px;
     text-align: left;
     padding-top: 5px;
 }
@@ -56,7 +56,7 @@ div.paragraph {
     width: 100%;
     text-align: justify;
     margin: 0 auto;
-    text-indent: 10px;
+    text-indent: 0px;
     text-align: left;
     padding: 0px 0px 5px 0px;
 }
@@ -67,7 +67,7 @@ div.paragraphE {
     width: 100%;
     text-align: justify;
     margin: 0 auto;
-    text-indent: 10px;
+    text-indent: 0px;
     text-align: left;
     padding: 0px 0px 5px 0px;
 }
@@ -86,13 +86,16 @@ div.ivideo {
     width: 560px;
     height: 315px;
 }
+p {
+    font-size: 12px;
+}
 p.paragraph {
     font-size: 1.25vw;
     color: black;
     width: 100%;
     text-align: justify;
     margin: 0 auto;
-    text-indent: 10px;
+    text-indent: 0px;
     text-align: left;
 }
 
@@ -102,7 +105,7 @@ p.paragraphE {
     width: 100%;
     text-align: justify;
     margin: 0 auto;
-    text-indent: 10px;
+    text-indent: 0px;
     text-align: left;
 }
 
@@ -232,10 +235,16 @@ img {
         line-height: 1.5;
         font-weight: normal;
     }
+    p {
+        font-size: 12px;
+    }
     audio {
         width: 200px;
         height: 40px;
         padding:10px 0px 5px 0px;
+    }
+    div.chapter {
+        font-size: 2.5vw;
     }
     div.title {
         font-size: 3.5vw;
@@ -263,9 +272,6 @@ img {
         font-size: 4vw;
     }
     div.pHeader {
-        font-size: 4vw;
-    }
-    div.chapter {
         font-size: 4vw;
     }
     img.imgtatvarth {

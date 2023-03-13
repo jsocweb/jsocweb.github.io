@@ -3,9 +3,17 @@
         <td>
             <table width="100%">
                 <tr>
-                    <td align="left"><a id="pgprev" class="btnlinks" href="#" onclick="reload('?gatha=mangal');">< Prev</a></td>
+                    <td align="left">
+                        <div >
+                            <button id="btnprev" class="btnlinks">< Prev</button>
+                        </div>
+                    </td>
                     <td align="center"><div class="chapter" id="chapter"></div></td>
-                    <td align="right"><a id="pgnext" class="btnlinks" href="#" onclick="reload('?gatha=1-2');">Next ></a></td>
+                    <td align="right">
+                        <div>
+                            <button id="btnnext"  class="btnlinks">Next ></button>
+                        </div>
+                    </td>
                 </tr>
             </table>
         </td>
@@ -52,6 +60,8 @@
         </td>
     </tr>
 </table>
+
 <script>
     displayTabData(event, 'txtHindi');
-    $('#btnTxtHindi').addClass('active');</script>
+    $('#btnTxtHindi').addClass('active');
+</script>

@@ -53,7 +53,6 @@ $(document).ready(function () {
     $('#gContent').append('<div id="mangal"></div>')
 
     var result = get_query();
-
     /* Add dynamic data divs per requested sutra*/
     $('#gContent').append('<div id="' + result + '"></div>')
 
@@ -62,27 +61,63 @@ $(document).ready(function () {
         case "mangal":
         case "coming":
         case "credits":
-            //alert("Here at mangal home");
             loadContent('tatvarth/' + result + '.html', '#' + result);
             break;
         default:
-            //alert("Here at sutra" + result);
             loadContent('tatvarth/content.html', '#' + result);
 
             $.getJSON('tatvarth/data/' + result + '.json', function (dt) {
                 $('#chapter').html(dt.chapter);
                 $('#title').html(dt.title);
                 $('#sutra').html(dt.sutra);
-                $('#audiosrc').html('<audio controls controlsList="nodownload"><source src="tatvarth/audio/' + dt.audiosrc +'" type="audio/mpeg"></audio><br />उच्चारण - आर्यिका 105 पूर्णमती माता जी के मधुर स्वर में।');
-                $('#arth').html('<b><font color=darkmagenta>अर्थ : </font></b>'+ dt.arth);
-                $('#meaning').html('<b><font color=darkmagenta>Meaning : </font></b>'+dt.meaning);
-                $('#vishesharth').html('<p class=\"paragraph\">' + dt.vishesharth +'</p>');
-                $('#explanation').html('<p class=\"paragraphE\">' + dt.explanation +'</p>');
+                $('#audiosrc').html('<audio controls controlsList="nodownload"><source src="tatvarth/audio/' + dt.audiosrc + '" type="audio/mpeg"></audio><br />उच्चारण - आर्यिका 105 पूर्णमती माता जी के मधुर स्वर में।');
+                $('#arth').html('<b><font color=darkmagenta>अर्थ : </font></b>' + dt.arth);
+                $('#meaning').html('<b><font color=darkmagenta>Meaning : </font></b>' + dt.meaning);
+                $('#vishesharth').html('<p class=\"paragraph\">' + dt.vishesharth + '</p>');
+                $('#explanation').html('<p class=\"paragraphE\">' + dt.explanation + '</p>');
                 $.each(dt.vidsrc, function (index, value) {
                     $('#vidsrc').append(value);
                 });
             });
+    }
+
+    const gathaArray = result.split("-");
+    var prev = gathaArray[0] + '-' + (parseInt(gathaArray[1]) - 1);
+    var next = gathaArray[0] + '-' + (parseInt(gathaArray[1]) + 1);
+
+    if (gathaArray[0] == 1) {
+        if (gathaArray[0]==1 && gathaArray[1] == 1) {
+            prev = 'mangal';
         }
+        else if (gathaArray[0] == 1 && gathaArray[1] == 33) {
+            next = '2-1';
+        }
+    }
+    else if (gathaArray[0] == 2) {
+        if (gathaArray[0] == 2 && gathaArray[1] == 1) {
+            prev = '1-33';
+        }
+        else if (gathaArray[0] == 2 && gathaArray[1] == 53) {
+            next = '3-1';
+        }
+    }
+    else if (gathaArray[0] == 3) {
+        if (gathaArray[0] == 3 && gathaArray[1] == 1) {
+            prev = '2-53';
+        }
+        else if (gathaArray[0] == 2 && gathaArray[1] == 39) {
+            next = '4-1';
+        }
+    }
+
+
+    $(document).on("click", "#btnprev", function () {
+        reload('?gatha=' + prev + '');
+    });
+    $(document).on("click", "#btnnext", function () {
+        reload('?gatha=' + next +'');
+    });
+
 });
 
 

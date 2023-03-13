@@ -116,14 +116,26 @@ a.btnlinks {
     border: none;
     outline: none;
     cursor: pointer;
-    padding: 8px 8px;
+    padding: 5px 5px 5px 5px;
     transition: 0.3s;
 }
-    a.btnlinks:hover {
-        background-color: #595959;
-        color: white;
-    }
-
+a.btnlinks:hover {
+    background-color: #595959;
+    color: white;
+}
+.btnlinks {
+    background-color: #1d1919;
+    color: white;
+    float: inherit;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.btnlinks:hover {
+    background-color: #595959;
+    color: white;
+}
 a.btnheaderlinks {
     background-color: #f48225;
     color: white;

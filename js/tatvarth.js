@@ -36,6 +36,8 @@ $(document).ready(function () {
     $('#ch1Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=1-32\');"> 1.32 - मिथ्यादृष्टि का ज्ञान मिथ्या क्यों? </a></li>')
     $('#ch1Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=1-33\');"> 1.33 - ﻿नय के भेद </a></li>')
 
+    /*Chapter 2*/
+    $('#ch1Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=1-1\');"> 1.1 - मोक्ष प्राप्ति का उपाय </a></li>')
     /*Chapter 3*/
     //$('#ch1Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=2-1\');"> 2.1- ﻿Coming soon... </a></li>')
     /*Chapter 4*/
@@ -65,7 +67,7 @@ $(document).ready(function () {
             break;
         default:
             loadContent('tatvarth/content.html', '#' + result);
-
+            
             $.getJSON('tatvarth/data/' + result + '.json', function (dt) {
                 $('#chapter').html(dt.chapter);
                 $('#title').html(dt.title);
@@ -78,9 +80,15 @@ $(document).ready(function () {
                 $.each(dt.vidsrc, function (index, value) {
                     $('#vidsrc').append(value);
                 });
+
+                var wurl = window.location.origin + '/tatvarth.html?gatha=' + result + '';
+                var message = "*Daily Swadhyay: Tatvarth Sutra Ji*%0a%0a _*" + dt.chapter + "*_%0a----------------------------------%0a%0a" + dt.title + "%0a*" + dt.sutra + "*%0a%0a*अर्थ:* " + dt.arth + "%0a%0a*Meaning:* " + dt.meaning + "%0a%0aContinue reading... " + wurl+"";
+                newUrl = "https://wa.me/?text=" + message +""
+                console.log(newUrl);
+                $('#awhatsapp').attr("href", newUrl);
             });
     }
-
+    
     const gathaArray = result.split("-");
     var prev = gathaArray[0] + '-' + (parseInt(gathaArray[1]) - 1);
     var next = gathaArray[0] + '-' + (parseInt(gathaArray[1]) + 1);

@@ -37,7 +37,61 @@ $(document).ready(function () {
     $('#ch1Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=1-33\');"> 1.33 - ﻿नय के भेद </a></li>')
 
     /*Chapter 2*/
-    $('#ch1Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=1-1\');"> 1.1 - मोक्ष प्राप्ति का उपाय </a></li>')
+    $('#ch2Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 2.1 ﻿- जीव के परिणामों (भावों) के प्रकार </a></li>')
+    $('#ch2Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 2.2 ﻿- ﻿परिणामों (भावों) के उत्तर-भेद </a></li>')
+    $('#ch2Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 2.3 ﻿- औपशमिकभाव के भेद </a></li>')
+    $('#ch2Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 2.4 ﻿- क्षायिकभाव के भेद </a></li>')
+    $('#ch2Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 2.5 ﻿- क्षायोपशमिक भाव के भेद </a></li>')
+    $('#ch2Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 2.6 ﻿- औदयिक भाव के भेद </a></li>')
+    $('#ch2Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 2.7 ﻿- पारिणामिक भाव के भेद </a></li>')
+    $('#ch2Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 2.8 ﻿- जीव का लक्षण </a></li>')
+    $('#ch2Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 2.9 ﻿- उपयोग के भेद </a></li>')
+    $('#ch2Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 2.10 ﻿- जीव के भेद </a></li>')
+    $('#ch2Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 2.11 ﻿- संसारी जीवों के भेद </a></li>')
+    $('#ch2Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 2.12﻿ - संसारी जीवों के और भी भेद </a></li>')
+    $('#ch2Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 2.13 ﻿- स्थावर जीवों के भेद </a></li>')
+    $('#ch2Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 2.14 ﻿- त्रस जीवों के भेद </a></li>')
+    $('#ch2Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 2.15 ﻿- इन्द्रियों की संख्या </a></li>')
+    $('#ch2Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 2.16 ﻿- इन्द्रियों के प्रकार </a></li>')
+    $('#ch2Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 2.17 ﻿- द्रव्य-इन्द्रियों का स्वरूप </a></li>')
+    $('#ch2Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 2.18 ﻿- भाव-इन्द्रियों का स्वरूप </a></li>')
+    $('#ch2Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 2.19 ﻿- इन्द्रियों के प्रकार </a></li>')
+    $('#ch2Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 2.20 ﻿- इन्द्रियों के विषय </a></li>')
+    $('#ch2Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 2.21 ﻿- मन के विषय </a></li>')
+    $('#ch2Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 2.22 ﻿- स्पर्शन इन्द्रिय के स्वामी </a></li>')
+    $('#ch2Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 2.23 ﻿- शेष इन्द्रियों के स्वामी </a></li>')
+    $('#ch2Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 2.24 ﻿- संज्ञी जीव का स्वरूप </a></li>')
+    $('#ch2Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 2.25 ﻿- विग्रह गति में योग </a></li>')
+    $('#ch2Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 2.26 ﻿- विग्रह गति में गमन </a></li>')
+    $('#ch2Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 2.27 ﻿- मुक्त जीव का गमन </a></li>')
+    $('#ch2Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 2.28 ﻿- विग्रह गति का काल </a></li>')
+    $('#ch2Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 2.29 ﻿- ऋजु-गति का काल </a></li>')
+    $('#ch2Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 2.30 ﻿- विग्रह-गति में अनाहारक </a></li>')
+    $('#ch2Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 2.31 ﻿- जन्म के प्रकार </a></li>')
+    $('#ch2Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 2.32 ﻿- जन्म-योनि के प्रकार </a></li>')
+    $('#ch2Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 2.33 ﻿- गर्भ-जन्म के स्वामी </a></li>')
+    $('#ch2Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 2.34﻿ - ﻿उपपाद-जन्म के स्वामी </a></li>')
+    $('#ch2Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 2.35 ﻿- सम्मूर्छन-जन्म के स्वामी </a></li>')
+    $('#ch2Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 2.36 ﻿- शरीर के प्रकार </a></li>')
+    $('#ch2Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 2.37 ﻿- शरीरों में स्थूलता-सूक्ष्मता </a></li>')
+    $('#ch2Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 2.38 ﻿- शरीरों के प्रदेश </a></li>')
+    $('#ch2Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 2.39 ﻿- तैजस-कार्मण शरीरों के प्रदेश </a></li>')
+    $('#ch2Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 2.40 ﻿- तैजस-कार्मण शरीरों में सूक्ष्मता </a></li>')
+    $('#ch2Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 2.41 ﻿- तैजस-कार्मण का जीव के साथ सम्बन्ध </a></li>')
+    $('#ch2Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 2.42 ﻿- दोनों शरीरों के स्वामी </a></li>')
+    $('#ch2Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 2.43 ﻿- एक जीव के कितने शरीर सम्भव हैं? </a></li>')
+    $('#ch2Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 2.44 ﻿- कार्मण शरीर के बारे में विशेष </a></li>')
+    $('#ch2Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 2.45 ﻿- गर्भज और सम्मूर्छनज का शरीर </a></li>')
+    $('#ch2Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 2.46 ﻿- उपपाद जन्म के साथ शरीर </a></li>')
+    $('#ch2Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 2.47 ﻿- वैक्रियक शरीर के अन्य स्वामी </a></li>')
+    $('#ch2Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 2.48 ﻿- तैजस शरीर की विशेषता </a></li>')
+    $('#ch2Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 2.49 ﻿- आहारक शरीर का स्वरूप </a></li>')
+    $('#ch2Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 2.50 ﻿- नारक और संमूर्च्छिन में लिंग </a></li>')
+    $('#ch2Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 2.51 ﻿- देवों में लिंग </a></li>')
+    $('#ch2Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 2.52 ﻿- मनुष्य-तिर्यन्चों में लिंग </a></li>')
+    $('#ch2Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 2.53 ﻿- आयु का अनपवर्तन सम्बन्धी नियम </a></li>')
+
+    //$('#ch2Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=2-2\');"> 2.1 ﻿-  </a></li>')
     /*Chapter 3*/
     //$('#ch1Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=2-1\');"> 2.1- ﻿Coming soon... </a></li>')
     /*Chapter 4*/
@@ -57,10 +111,23 @@ $(document).ready(function () {
     var result = get_query();
     /* Add dynamic data divs per requested sutra*/
     $('#gContent').append('<div id="' + result + '"></div>')
-
+    var newUrl = "";
     switch (result) {
         case "home":
+            var wurl = window.location.origin + '/tatvarth.html?gatha=' + result + '';
+            var message = "*Daily Swadhyay: Tatvarth Sutra Ji*%0a%0a _*आचार्य उमास्वामी विरचित*_%0a*तत्त्वार्थसूत्र*%0a%0a*Ācārya Umāsvāmī’s*%0a*Tattvārthasūtra*%0a----------------------------------%0a%0a*प्रस्तावना*%0a%0aआचार्य उमास्‍वामी कृत मोक्षमार्ग, तत्त्वार्थ दर्शन विषयक 10 अध्‍यायों में सूत्रबद्ध ग्रन्‍थ है। कुल सूत्र 357 हैं। इसी को मोक्षशास्‍त्र भी कहते हैं। दिगम्‍बर व श्‍वेताम्‍बर पंथों दोनों को समान रूप से मान्‍य है। जैन आम्‍नाय में यह सर्व प्रधान सिद्धान्‍त ग्रन्‍थ माना जाता है। जैन दर्शन प्ररूपक होने के कारण यह जैन गीता के रूप में समझा जाता है।%0a%0aइस भावना से प्रेरित होकर की हम सभी श्रावकों को जैन धर्म के मर्म की जानकारी प्राप्त हो, हमने तत्वार्थसूत्र ग्रंथ के सूत्र को अर्थ एवं विशेषार्थ के रूप में यहाँ संयोजित करने का प्रयास किया है | हमने प्रस्तुत अर्थ, ग्रंथों से लिया है | उम्मीद है कि आप सभी लोगों को हमारी ये कोशिश पसंद आएगी एवं आप सभी अपना समय दे कर इसका लाभ उठायेंगे | इस संयोजन में यदि हमसे कोई त्रुटि हुई हो तो कृप्या आप उसे हमें अवश्य बताएँ तो हम उसे सही कर सकें | हम वीर प्रभु से प्रार्थना करते हैं की हम इस कार्य को पूरा कर सकें, इसके लिए आप सभी का सहयोग अपेक्षित है |%0a%0aContinue reading... " + wurl + "";
+            newUrl = "https://wa.me/?text=" + message + ""
+            $('#awhatsapp').attr("href", newUrl);
+
         case "mangal":
+            if (!newUrl) {
+                // newUrl was empty string, false, 0, null, undefined, ...
+                var wurl = window.location.origin + '/tatvarth.html?gatha=' + result + '';
+                var message = "*Daily Swadhyay: Tatvarth Sutra Ji*%0a%0a _*मंगलाचरण*_%0a----------------------------------%0a%0a*मोक्ष-मार्गस्य नेतारं, भेत्तारं कर्म-भूभृताम्‌।%0aज्ञातारं विश्व - तत्त्वानां, वन्दे तद्गुण - लब्धये॥*%0a%0a*अर्थ:* जो मोक्षमार्ग का प्रवर्तक है, कर्मरूपी पर्वतों का भेदन करने वाला है और समस्त तत्त्वों को जानता है, उसे मैं उन गुणों की प्राप्ति के लिए नमस्कार करता हूँ।%0a%0a*Meaning:* I make obeisance to the Omniscient Lord – the promulgator of the path to liberation, the destroyer of the mountains of karmas, and the knower of the whole of reality – so that I may realize these qualities.%0a%0aContinue reading... " + wurl + "";
+                newUrl = "https://wa.me/?text=" + message + ""
+                $('#awhatsapp').attr("href", newUrl);
+            }
+
         case "coming":
         case "credits":
             loadContent('tatvarth/' + result + '.html', '#' + result);
@@ -84,7 +151,6 @@ $(document).ready(function () {
                 var wurl = window.location.origin + '/tatvarth.html?gatha=' + result + '';
                 var message = "*Daily Swadhyay: Tatvarth Sutra Ji*%0a%0a _*" + dt.chapter + "*_%0a----------------------------------%0a%0a" + dt.title + "%0a*" + dt.sutra + "*%0a%0a*अर्थ:* " + dt.arth + "%0a%0a*Meaning:* " + dt.meaning + "%0a%0aContinue reading... " + wurl+"";
                 newUrl = "https://wa.me/?text=" + message +""
-                console.log(newUrl);
                 $('#awhatsapp').attr("href", newUrl);
             });
     }

@@ -2,6 +2,7 @@
 $(document).ready(function () {
     /* Add menu items */
     /*Chapter 1*/
+    /*
     $('#ch1Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=1-1\');"> 1.1 - मोक्ष प्राप्ति का उपाय </a></li>')
     $('#ch1Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=1-2\');"> 1.2 - ﻿सम्यग्दर्शन का लक्षण </a></li>')
     $('#ch1Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=1-3\');"> 1.3 - सम्यग्दर्शन के भेद </a></li>')
@@ -35,7 +36,7 @@ $(document).ready(function () {
     $('#ch1Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=1-31\');"> 1.31 - ﻿कौन-कौन से ज्ञान मिथ्या भी होते हैं? </a></li>')
     $('#ch1Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=1-32\');"> 1.32 - मिथ्यादृष्टि का ज्ञान मिथ्या क्यों? </a></li>')
     $('#ch1Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=1-33\');"> 1.33 - ﻿नय के भेद </a></li>')
-
+    */
     /*Chapter 2*/
     $('#ch2Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 2.1 ﻿- जीव के परिणामों (भावों) के प्रकार </a></li>')
     $('#ch2Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 2.2 ﻿- ﻿परिणामों (भावों) के उत्तर-भेद </a></li>')
@@ -91,16 +92,103 @@ $(document).ready(function () {
     $('#ch2Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 2.52 ﻿- मनुष्य-तिर्यन्चों में लिंग </a></li>')
     $('#ch2Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 2.53 ﻿- आयु का अनपवर्तन सम्बन्धी नियम </a></li>')
 
-    //$('#ch2Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=2-2\');"> 2.1 ﻿-  </a></li>')
     /*Chapter 3*/
-    //$('#ch1Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=2-1\');"> 2.1- ﻿Coming soon... </a></li>')
+    $('#ch3Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 3.1 ﻿- coming </a></li>')
+    $('#ch3Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 3.2 ﻿- coming </a></li>')
+    $('#ch3Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 3.3 ﻿- coming </a></li>')
+    $('#ch3Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 3.4 ﻿- coming </a></li>')
+    $('#ch3Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 3.5 ﻿- coming </a></li>')
+    $('#ch3Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 3.6 ﻿- coming </a></li>')
+    $('#ch3Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 3.7 ﻿- coming </a></li>')
+    $('#ch3Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 3.8 ﻿- coming </a></li>')
+    $('#ch3Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 3.9 ﻿- coming </a></li>')
+    $('#ch3Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 3.10 ﻿- coming </a></li>')
+    $('#ch3Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 3.11 ﻿- coming </a></li>')
+    $('#ch3Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 3.12 ﻿- coming </a></li>')
+    $('#ch3Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 3.13 ﻿- coming </a></li>')
+    $('#ch3Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 3.14 ﻿- coming </a></li>')
+    $('#ch3Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 3.15 ﻿- coming </a></li>')
+    $('#ch3Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 3.16 ﻿- coming </a></li>')
+    $('#ch3Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 3.17 ﻿- coming </a></li>')
+    $('#ch3Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 3.18 ﻿- coming </a></li>')
+    $('#ch3Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 3.19 ﻿- coming </a></li>')
+    $('#ch3Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 3.20 ﻿- coming </a></li>')
+    $('#ch3Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 3.21 ﻿- coming </a></li>')
+    $('#ch3Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 3.22 ﻿- coming </a></li>')
+    $('#ch3Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 3.23 ﻿- coming </a></li>')
+    $('#ch3Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 3.24 ﻿- coming </a></li>')
+    $('#ch3Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 3.25 ﻿- coming </a></li>')
+    $('#ch3Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 3.26 ﻿- coming </a></li>')
+    $('#ch3Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 3.27 ﻿- coming </a></li>')
+    $('#ch3Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 3.28 - coming </a></li>')
+    $('#ch3Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 3.29 ﻿- coming </a></li>')
+    $('#ch3Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 3.30 ﻿- coming </a></li>')
+    $('#ch3Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 3.31 ﻿- coming </a></li>')
+    $('#ch3Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 3.32 ﻿- coming </a></li>')
+    $('#ch3Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 3.33 ﻿- coming </a></li>')
+    $('#ch3Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 3.34 ﻿- coming </a></li>')
+    $('#ch3Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 3.35 ﻿- coming </a></li>')
+    $('#ch3Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 3.36 ﻿- coming </a></li>')
+    $('#ch3Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 3.37 ﻿- coming </a></li>')
+    $('#ch3Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 3.38 ﻿- coming </a></li>')
+    $('#ch3Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 3.39 ﻿- coming </a></li>')
     /*Chapter 4*/
+    $('#ch4Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 4.1 ﻿- देवों के प्रकार </a></li>')
+    $('#ch4Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 4.2 ﻿- भवनत्रिक-देवों में लेश्या </a></li>')
+    $('#ch4Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 4.3 ﻿- देवों के उत्तर भेद </a></li>')
+    $('#ch4Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 4.4 ﻿- ﻿दस भेद </a></li>')
+    $('#ch4Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 4.5 ﻿- भेदों में अपवाद </a></li>')
+    $('#ch4Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 4.6 ﻿- ﻿भवनावासी और व्यंतर में इंद्र </a></li>')
+    $('#ch4Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 4.7 ﻿- काय-प्रविचार कहाँ तक? </a></li>')
+    $('#ch4Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 4.8 ﻿- ﻿स्पर्श, रूप और शब्द प्रविचार </a></li>')
+    $('#ch4Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 4.9 ﻿- ﻿प्रविचार रहित देव </a></li>')
+    $('#ch4Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 4.10 ﻿- भवनवासी देवों के प्रकार </a></li>')
+    $('#ch4Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 4.11 ﻿- व्यन्‍तर देवों के प्रकार </a></li>')
+    $('#ch4Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 4.12 ﻿- ज्‍योतिषी देवों के प्रकार </a></li>')
+    $('#ch4Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 4.13 ﻿- ज्‍योतिषी देवों में गति </a></li>')
+    $('#ch4Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 4.14 ﻿- ﻿ज्योतिषी-विमान द्वारा काल-की गणना </a></li>')
+    $('#ch4Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 4.15 ﻿- ज्योतिष्क देव में स्थिरता </a></li>')
+    $('#ch4Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 4.16 ﻿- ﻿वैमानिक देवों का वर्णन </a></li>')
+    $('#ch4Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 4.17 ﻿- वैमानिक देवों के प्रकार </a></li>')
+    $('#ch4Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 4.18 ﻿- कल्पादि का स्थान-क्रम </a></li>')
+    $('#ch4Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 4.19 ﻿- स्वर्गों के नाम </a></li>')
+    $('#ch4Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 4.20 ﻿- ऊपर के देवों में वृद्धि </a></li>')
+    $('#ch4Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 4.21 ﻿- ऊपर के देवों में हीनता </a></li>')
+    $('#ch4Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 4.22 ﻿- वैमानिक देवों में लेश्या </a></li>')
+    $('#ch4Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 4.23 ﻿- coming </a></li>')
+    $('#ch4Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 4.24 ﻿- coming </a></li>')
+    $('#ch4Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 4.25 ﻿- coming </a></li>')
+    $('#ch4Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 4.26 ﻿- coming </a></li>')
+    $('#ch4Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 4.27 ﻿- coming </a></li>')
+    $('#ch4Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 4.28 ﻿- coming </a></li>')
+    $('#ch4Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 4.29 ﻿- coming </a></li>')
+    $('#ch4Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 4.30 ﻿- coming </a></li>')
+    $('#ch4Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 4.31 ﻿- coming </a></li>')
+    $('#ch4Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 4.32 ﻿- coming </a></li>')
+    $('#ch4Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 4.33 ﻿- coming </a></li>')
+    $('#ch4Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 4.34 ﻿- coming </a></li>')
+    $('#ch4Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 4.35 ﻿- coming </a></li>')
+    $('#ch4Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 4.36 ﻿- coming </a></li>')
+    $('#ch4Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 4.37 ﻿- coming </a></li>')
+    $('#ch4Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 4.38 ﻿- coming </a></li>')
+    $('#ch4Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 4.39 ﻿- coming </a></li>')
+    $('#ch4Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 4.40 ﻿- coming </a></li>')
+    $('#ch4Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 4.41 ﻿- coming </a></li>')
+    $('#ch4Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=coming\');"> 4.42 ﻿- coming </a></li>')
+
     /*Chapter 5*/
     /*Chapter 6*/
     /*Chapter 7*/
     /*Chapter 8*/
     /*Chapter 9*/
     /*Chapter 10*/
+    $.getJSON('tatvarth/data/menuitems.json', function (dt) {
+        $.each(dt, function (key, val) {
+            //console.log(val.id);
+            $('#ch' + val.chapter + 'Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=' + val.chapter + '-' + val.sutra +'\');"> ' + val.id + ' ﻿- ' + val.title + '</a></li>')
+        });
+    });
+
 
     /* Add constant data divs */
     $('#gContent').append('<div id="coming"></div>')
@@ -115,7 +203,8 @@ $(document).ready(function () {
     switch (result) {
         case "home":
             var wurl = window.location.origin + '/tatvarth.html?gatha=' + result + '';
-            var message = "*Daily Swadhyay: Tatvarth Sutra Ji*%0a%0a _*आचार्य उमास्वामी विरचित*_%0a*तत्त्वार्थसूत्र*%0a%0a*Ācārya Umāsvāmī’s*%0a*Tattvārthasūtra*%0a----------------------------------%0a%0a*प्रस्तावना*%0a%0aआचार्य उमास्‍वामी कृत मोक्षमार्ग, तत्त्वार्थ दर्शन विषयक 10 अध्‍यायों में सूत्रबद्ध ग्रन्‍थ है। कुल सूत्र 357 हैं। इसी को मोक्षशास्‍त्र भी कहते हैं। दिगम्‍बर व श्‍वेताम्‍बर पंथों दोनों को समान रूप से मान्‍य है। जैन आम्‍नाय में यह सर्व प्रधान सिद्धान्‍त ग्रन्‍थ माना जाता है। जैन दर्शन प्ररूपक होने के कारण यह जैन गीता के रूप में समझा जाता है।%0a%0aइस भावना से प्रेरित होकर की हम सभी श्रावकों को जैन धर्म के मर्म की जानकारी प्राप्त हो, हमने तत्वार्थसूत्र ग्रंथ के सूत्र को अर्थ एवं विशेषार्थ के रूप में यहाँ संयोजित करने का प्रयास किया है | हमने प्रस्तुत अर्थ, ग्रंथों से लिया है | उम्मीद है कि आप सभी लोगों को हमारी ये कोशिश पसंद आएगी एवं आप सभी अपना समय दे कर इसका लाभ उठायेंगे | इस संयोजन में यदि हमसे कोई त्रुटि हुई हो तो कृप्या आप उसे हमें अवश्य बताएँ तो हम उसे सही कर सकें | हम वीर प्रभु से प्रार्थना करते हैं की हम इस कार्य को पूरा कर सकें, इसके लिए आप सभी का सहयोग अपेक्षित है |%0a%0aContinue reading... " + wurl + "";
+            var message = "*Daily Swadhyay: Tatvarth Sutra Ji* %0a%0a _*आचार्य उमास्वामी विरचित*_%0a*तत्त्वार्थसूत्र*%0a%0a*Ācārya Umāsvāmī’s*%0a*Tattvārthasūtra*%0a----------------------------------%0a%0a*प्रस्तावना*%0a%0aआचार्य उमास्‍वामी कृत मोक्षमार्ग, तत्त्वार्थ दर्शन विषयक 10 अध्‍यायों में सूत्रबद्ध ग्रन्‍थ है। कुल सूत्र 357 हैं। इसी को मोक्षशास्‍त्र भी कहते हैं। दिगम्‍बर व श्‍वेताम्‍बर पंथों दोनों को समान रूप से मान्‍य है। जैन आम्‍नाय में यह सर्व प्रधान सिद्धान्‍त ग्रन्‍थ माना जाता है। जैन दर्शन प्ररूपक होने के कारण यह जैन गीता के रूप में समझा जाता है।%0a%0aइस भावना से प्रेरित होकर की हम सभी श्रावकों को जैन धर्म के मर्म की जानकारी प्राप्त हो, हमने तत्वार्थसूत्र ग्रंथ के सूत्र को अर्थ एवं विशेषार्थ के रूप में यहाँ संयोजित करने का प्रयास किया है | हमने प्रस्तुत अर्थ, ग्रंथों से लिया है | उम्मीद है कि आप सभी लोगों को हमारी ये कोशिश पसंद आएगी एवं आप सभी अपना समय दे कर इसका लाभ उठायेंगे | इस संयोजन में यदि हमसे कोई त्रुटि हुई हो तो कृप्या आप उसे हमें अवश्य बताएँ तो हम उसे सही कर सकें | हम वीर प्रभु से प्रार्थना करते हैं की हम इस कार्य को पूरा कर सकें, इसके लिए आप सभी का सहयोग अपेक्षित है |%0a%0aContinue reading... " + wurl + "";
+            message = message.replace('<br />', '%0a').replace('<p>', '_').replace('</p>', '_') ;
             newUrl = "https://wa.me/?text=" + message + ""
             $('#awhatsapp').attr("href", newUrl);
 
@@ -123,7 +212,8 @@ $(document).ready(function () {
             if (!newUrl) {
                 // newUrl was empty string, false, 0, null, undefined, ...
                 var wurl = window.location.origin + '/tatvarth.html?gatha=' + result + '';
-                var message = "*Daily Swadhyay: Tatvarth Sutra Ji*%0a%0a _*मंगलाचरण*_%0a----------------------------------%0a%0a*मोक्ष-मार्गस्य नेतारं, भेत्तारं कर्म-भूभृताम्‌।%0aज्ञातारं विश्व - तत्त्वानां, वन्दे तद्गुण - लब्धये॥*%0a%0a*अर्थ:* जो मोक्षमार्ग का प्रवर्तक है, कर्मरूपी पर्वतों का भेदन करने वाला है और समस्त तत्त्वों को जानता है, उसे मैं उन गुणों की प्राप्ति के लिए नमस्कार करता हूँ।%0a%0a*Meaning:* I make obeisance to the Omniscient Lord – the promulgator of the path to liberation, the destroyer of the mountains of karmas, and the knower of the whole of reality – so that I may realize these qualities.%0a%0aContinue reading... " + wurl + "";
+                var message = "*Daily Swadhyay: Tatvarth Sutra Ji* %0a%0a _*मंगलाचरण*_%0a----------------------------------%0a%0a*मोक्ष-मार्गस्य नेतारं, भेत्तारं कर्म-भूभृताम्‌।%0aज्ञातारं विश्व - तत्त्वानां, वन्दे तद्गुण - लब्धये॥*%0a%0a*अर्थ:* जो मोक्षमार्ग का प्रवर्तक है, कर्मरूपी पर्वतों का भेदन करने वाला है और समस्त तत्त्वों को जानता है, उसे मैं उन गुणों की प्राप्ति के लिए नमस्कार करता हूँ।%0a%0a*Meaning:* I make obeisance to the Omniscient Lord – the promulgator of the path to liberation, the destroyer of the mountains of karmas, and the knower of the whole of reality – so that I may realize these qualities.%0a%0aContinue reading... " + wurl + "";
+                message = message.replace('<br />', '%0a').replace('<p>', '_').replace('</p>', '_');
                 newUrl = "https://wa.me/?text=" + message + ""
                 $('#awhatsapp').attr("href", newUrl);
             }
@@ -149,7 +239,8 @@ $(document).ready(function () {
                 });
 
                 var wurl = window.location.origin + '/tatvarth.html?gatha=' + result + '';
-                var message = "*Daily Swadhyay: Tatvarth Sutra Ji*%0a%0a _*" + dt.chapter + "*_%0a----------------------------------%0a%0a" + dt.title + "%0a*" + dt.sutra + "*%0a%0a*अर्थ:* " + dt.arth + "%0a%0a*Meaning:* " + dt.meaning + "%0a%0aContinue reading... " + wurl+"";
+                var message = "*Daily Swadhyay: Tatvarth Sutra Ji* %0a%0a _*" + dt.chapter + "*_%0a----------------------------------%0a%0a" + dt.title + "%0a*सूत्र: " + dt.sutra + "*%0a%0a*अर्थ:* " + dt.arth + "%0a%0a*Meaning:* " + dt.meaning + "%0a%0aContinue reading... " + wurl + "";
+                message = message.replace('<br />', '%0a').replace('<p>', '_').replace('</p>', '_');
                 newUrl = "https://wa.me/?text=" + message +""
                 $('#awhatsapp').attr("href", newUrl);
             });

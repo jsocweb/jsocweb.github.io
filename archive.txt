@@ -73,7 +73,7 @@ $(document).ready(function () {
             <div class=arth>
                 <b><font color=darkmagenta>अर्थ : </font></b>गणधरों ने सूत्र उसे कहा है जो अल्पाक्षर हो, असंदिग्ध हो, सारवद्‌ हो, गूढ़निर्णय हो, निर्दोष हो, हेतुमत्‌ हो और तथ्यपूर्ण हो।
             </div>
-            <div class=meaning><b><font color=darkmagenta>Meaning : </font></b>﻿ Right faith (samyagdarśana), right knowledge (samyagjñāna), and right conduct (samyakcārita), together, constitute the path to liberation – mokÈamārga.  </div>
+            <div class=meaning><b><font color=darkmagenta>Meaning : </font></b>﻿ Right faith (samyagdarśana), right knowledge (samyagjñāna), and right conduct (samyakcārita), together, constitute the path to liberation – mokshamagra.  </div>
             <br />
         </td>
     </tr>

@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\tatvarth",
+    "\\tatvarth\\data"
   ],
-  "SelectedNode": "\\js",
+  "SelectedNode": "\\tatvarth\\data\\1-2.json",
   "PreviewInSolutionExplorer": false
 }

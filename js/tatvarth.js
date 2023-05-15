@@ -4,7 +4,7 @@ $(document).ready(function () {
     $.getJSON('tatvarth/data/menuitems.json', function (dt) {
         $.each(dt, function (key, val) {
             //console.log(val.id);
-            if (val.chapter == 1) {
+            if (val.chapter == 1 || val.chapter == 2) {
                 $('#ch' + val.chapter + 'Submenu').append('<li><a href = "#" onclick = "reload(\'?gatha=' + val.chapter + '-' + val.sutra + '\');"> ' + val.chapter + '.' + val.sutra + ' ﻿- ' + val.title + '</a></li>')
             }
             else {
@@ -89,20 +89,23 @@ $(document).ready(function () {
             prev = 'mangal';
         }
         else if (gathaArray[0] == 1 && gathaArray[1] == 33) {
-            //next = '2-1';
-            next = 'coming';
+            next = '2-1';
         }
     }
-    /*Uncomment below code to release the chapters*/
+ 
 
-    /*else if (gathaArray[0] == 2) {
+    else if (gathaArray[0] == 2) {
         if (gathaArray[0] == 2 && gathaArray[1] == 1) {
             prev = '1-33';
         }
         else if (gathaArray[0] == 2 && gathaArray[1] == 53) {
-            next = '3-1';
+            //next = '3-1';
+            next = 'coming';
         }
     }
+
+    /*Uncomment below code to release the chapters*/
+    /*
     else if (gathaArray[0] == 3) {
         if (gathaArray[0] == 3 && gathaArray[1] == 1) {
             prev = '2-53';
